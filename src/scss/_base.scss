@@ -1,0 +1,30 @@
+
+html {
+  height: 100vh;
+}
+body {
+  background: rgb(52,59,101);
+  color: #fff;
+}
+h1, h2, h3, p {
+  user-select: none;
+}
+.app-container {
+  height: 100vh;
+  min-height: 100vh;
+  background: rgb(52,59,101);
+background: linear-gradient(0deg, rgba(52,59,101,1) 0%, rgba(110,123,175,1) 100%);
+  font-size: 18px;
+  display: flex;
+  flex-direction:  column;
+  justify-content: space-between;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  background: rgb(52,59,101, 0.3);
+  flex-direction:  column;
+  justify-content: space-between;
+}
+li { cursor: pointer; }
